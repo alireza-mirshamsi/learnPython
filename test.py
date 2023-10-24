@@ -374,11 +374,58 @@
 #     print(l[i])
 #     i += 1
 
-i=1
-while i <= 10:
-    j = 1
-    while j <= 10:
-        print(i*j, end="\t")
-        j += 1
-    print()
-    i += 1
+# i=1
+# while i <= 10:
+#     j = 1
+#     while j <= 10:
+#         print(i*j, end="\t")
+#         j += 1
+#     print()
+#     i += 1
+
+# list1 = [1,2,3,4,5]
+# s = "alireza mirshamsi"
+# t = ("a", "b", "c")
+# d = {"A":1, "B":2, "C": 3}
+# for i in list1:
+#     print("-"*30)
+#     print(chr(i))
+
+# d = {"a": 1, "b": 2, "c": 3}
+# for key, value in d.items():
+#     print(key, ":", value)
+
+# ----- range -----
+# for i in range(2,10):
+#     print(i)
+
+# l = input("names: ").split("-")
+# print(l)
+# for i in range(0, len(l)):
+#     print(i, l[i])
+
+# ---- factorail ----
+# n = int(input("Enter number: "))
+# m = 1
+# for i in range(1, n+1):
+#     m *= i
+# print("f: ", m)
+
+# n = input("Enter string: ")
+# for i in range(len(n)-1, -1, -1):
+#     print(n[i], end="")
+
+# n = int(input("Enter number: "))
+# for i in range(1, n+1):
+#     for j in range(1, i+1):
+#         print(j, end="")
+#     print()
+# for i in range(n-1, 0, -1):
+#     for j in range(1, i+1):
+#         print(j, end="")
+#     print()
+
+# l = ["a", "b", "c", "d"]
+# for i in range(0, len(l)):
+#     print(i, ":", l[i])
+# print(list(enumerate(["b", "c", "d"])))
