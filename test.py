@@ -429,3 +429,21 @@
 # for i in range(0, len(l)):
 #     print(i, ":", l[i])
 # print(list(enumerate(["b", "c", "d"])))
+
+# x = ["reza", "ali", "neda", "mina"]
+# y = [20, 18, 25, 36]
+# for i, j in zip(x, y):
+#     print("name:", i, "age:", j)
+
+# x = ["reza", "ali", "neda", "mina"]
+# y = [20, 18, 25, 36]
+# for i in reversed(x):
+#     print("name:", i)
+
+# x = ["reza", "ali", "neda", "mina"]
+# y = [20, 18, 25, 36]
+# for i in sorted(y, reverse=True):
+#     print("name:", i)
+
+from random import random,seed
+print(random() * 100)
