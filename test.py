@@ -428,7 +428,11 @@
 # l = ["a", "b", "c", "d"]
 # for i in range(0, len(l)):
 #     print(i, ":", l[i])
-# print(list(enumerate(["b", "c", "d"])))
+# print(list(enumerate(["b", "c", "d"])))  enumerate => کد عنصر یا اندکس می توان استفاده کرد
+
+# l = ["a", "b", "c", "d"]
+# for i, j in enumerate(l, 5):
+#     print(i, ":", j)
 
 # x = ["reza", "ali", "neda", "mina"]
 # y = [20, 18, 25, 36]
@@ -445,5 +449,40 @@
 # for i in sorted(y, reverse=True):
 #     print("name:", i)
 
-from random import random,seed
-print(random() * 100)
+from random import random, seed, uniform, randint, randrange, choice, sample, shuffle
+# seed(10)
+# print(random())
+# print(random())
+
+# print(int(5 + (random() * (15-5))))
+# for _ in range(10):
+#     print(int(uniform(5,16)))
+
+# for _ in range(10):
+#     print(randint(5, 15))
+
+
+# x = ["a", "b", "c", "d", "e", "d"]
+# for _ in range(10):
+#     print(choice(x))
+
+# x = ["a", "b", "c", "d", "e", "d"]
+# shuffle(x)
+# print(x)
+
+# --- example -----
+# coin = ["shir", "khat"]
+# sh = 0
+# kh = 0
+
+# for _ in range(1000):
+#     r = choice(coin)
+#     if r == "shir":
+#         sh += 1
+#     else:
+#         kh += 1
+
+# print("shir: ", sh)
+# print("khat: ", kh)
+
+tas = {1:0, 2: 0, 3: 0, 4: }
