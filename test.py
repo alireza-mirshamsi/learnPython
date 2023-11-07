@@ -485,4 +485,29 @@ from random import random, seed, uniform, randint, randrange, choice, sample, sh
 # print("shir: ", sh)
 # print("khat: ", kh)
 
-tas = {1:0, 2: 0, 3: 0, 4: }
+# tas = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0}
+# for _ in range(10):
+#     tas[randint(1, 6)] += 1
+# print(tas)
+
+# ----- practice 1 --------
+# برنامه ای بنویسید دو عدد از کاربر بگیرد و اعداد مابین آن را نمایش دهد
+# x = int(input("Enter x: "))
+# y = int(input("Enter y: "))
+
+# min_ = min(x, y)
+# max_ = max(x, y)
+
+# while min_ <= max_:
+#     print(min_)
+#     min_ += 1
+
+# ----- practice 2 --------
+# دو عدد را بگیرد و مقسوم علیه مشترکشان را نمایش دهد
+x = int(input("Enter x: "))
+y = int(input("Enter y: "))
+m = min(x, y)
+
+for i in range(1, m+1):
+    if (x % i == 0 and y % i == 0):
+        print(i, end="\t")
