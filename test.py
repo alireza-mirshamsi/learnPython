@@ -504,10 +504,21 @@ from random import random, seed, uniform, randint, randrange, choice, sample, sh
 
 # ----- practice 2 --------
 # دو عدد را بگیرد و مقسوم علیه مشترکشان را نمایش دهد
-x = int(input("Enter x: "))
-y = int(input("Enter y: "))
-m = min(x, y)
+# x = int(input("Enter x: "))
+# y = int(input("Enter y: "))
+# m = min(x, y)
 
-for i in range(1, m+1):
-    if (x % i == 0 and y % i == 0):
-        print(i, end="\t")
+# for i in range(1, m+1):
+#     if (x % i == 0 and y % i == 0):
+#         print(i, end="\t")
+
+# ----- practice 3 --------
+# بزرگترین مقسوم علیه مشترک را پیدا کنید
+# x = int(input("Enter x: "))
+# y = int(input("Enter y: "))
+# m = min(x, y)
+# tmp = 1
+# for i in range(m, 0, -1):
+#     if x % i == 0 and y % i == 0:
+#         print(i)
+#         break
