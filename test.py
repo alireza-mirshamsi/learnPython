@@ -522,3 +522,29 @@ from random import random, seed, uniform, randint, randrange, choice, sample, sh
 #     if x % i == 0 and y % i == 0:
 #         print(i)
 #         break
+
+# ---- mini project encryption ----
+# while True:
+#     print("choose your option:\n\t1) Encrypt\n\t2)Decrypt\n\t3)Exit")
+#     choice = input("Your choise: ")
+#     if choice == "1":
+#         plain_text = input("text: ")
+#         encrypted_text = ""
+#         for c in plain_text:
+#             x = ord(c) * 2 + 5
+#             encrypted_text += chr(x)
+#         print("encrypted text: ", encrypted_text)
+#         print("*"*40 + "\n")
+#     elif choice == "2":
+#         encrypted_text = input("encrypted text: ")
+#         plain_text = ""
+#         for c in encrypted_text:
+#             x = (ord(c) - 5) // 2
+#             plain_text += chr(x)
+#         print("plain text: ", plain_text)
+#         print("*"*40 + "\n")
+#     elif choice == "3":
+#         print("goodbye!")
+#         break
+#     else:
+#         print("your choise wrong!")
