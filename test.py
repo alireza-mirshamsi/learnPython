@@ -550,23 +550,25 @@ from random import random, seed, uniform, randint, randrange, choice, sample, sh
 #         print("your choise wrong!")
 
 # ---- timer ------
-import time
-while True:
-    choice = input("Do you want start? (y/n)")
-    if 'y' in choice.lower():
-        hour = int(input("Enter Amount of hour: "))
-        minutes = int(input("Enter Amount of minutes: "))
-        seconds = int(input("Enter seconds: "))
-        total = hour * 60 * 60 + minutes * 60 + seconds
-        print("Timer starts now...")
-        time.sleep(1)
-        while total >= 1:
-            print(total)
-            total -= 1
-            time.sleep(1)
-        print("Timer ended...")
-    elif 'n' in choice.lower():
-        print("Eciting...")
-        break
-    else:
-        print("Invalid input...")
+# import time
+# while True:
+#     choice = input("Do you want start? (y/n)")
+#     if 'y' in choice.lower():
+#         hour = int(input("Enter Amount of hour: "))
+#         minutes = int(input("Enter Amount of minutes: "))
+#         seconds = int(input("Enter seconds: "))
+#         total = hour * 60 * 60 + minutes * 60 + seconds
+#         print("Timer starts now...")
+#         time.sleep(1)
+#         while total >= 1:
+#             print(total)
+#             total -= 1
+#             time.sleep(1)
+#         print("Timer ended...")
+#     elif 'n' in choice.lower():
+#         print("Eciting...")
+#         break
+#     else:
+#         print("Invalid input...")
+
+
