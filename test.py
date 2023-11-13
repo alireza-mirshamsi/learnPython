@@ -571,4 +571,6 @@ from random import random, seed, uniform, randint, randrange, choice, sample, sh
 #     else:
 #         print("Invalid input...")
 
-
+# ------ function -------
+x = int(input("Enter number: "))
+print(f(x))
